@@ -25,6 +25,11 @@ def get_db():
         db.close()  #Cierra la sesión después de usarla
 
 
+# Ruta raiz
+@app.get("/")
+def health_check():
+    return{"status":"ok"}
+
 # Obtener todos los clientes
 @app.get(
     "/clientes", 
