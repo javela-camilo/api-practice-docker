@@ -3,4 +3,5 @@ sqlalchemy
 pydantic
 python-dotenv
 psycopg2-binary
-uvicorn 
+uvicorn
+boto3 
